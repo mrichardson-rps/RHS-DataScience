@@ -8,6 +8,11 @@
     },
     "postCreateCommand": "pip install -r requirements.txt",
     "customizations": {
+        "settings": {
+        "workbench.editorAssociations": {
+          "*.ipynb": "jupyter-notebook"
+        }
+      },
         "vscode": {
             "extensions": [
                 "ms-python.python",
